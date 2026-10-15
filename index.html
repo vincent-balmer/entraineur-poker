@@ -1,3 +1,13 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-title" content="Poker">
+<meta name="application-name" content="Entraîneur Hold'em">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,-apple-system,"Segoe UI",sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
 <title>Entraîneur Hold'em 6-max</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -1504,3 +1514,6 @@ const _simRender=simRender; simRender=function(){ _simRender(); p2Render(); };
 renderStats();
 showView(location.hash==="#entrainement"?"train":location.hash==="#simulateur"?"sim":location.hash==="#avance"?"adv":location.hash==="#tableau"?"table":location.hash==="#regles"?"rules":location.hash==="#aide"?"help":(["home","table","train","sim","adv","rules","help"].includes(state.view)?state.view:"home"));
 </script>
+
+</body>
+</html>
